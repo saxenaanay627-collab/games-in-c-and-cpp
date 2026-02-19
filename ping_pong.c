@@ -1,6 +1,7 @@
 #include "raylib.h"
 
-int main(void)
+void ping_pong(void)
+
 {
     const int W = 1280, H = 800;
     const float paddleW = 20, paddleH = 100;
@@ -100,5 +101,4 @@ int main(void)
         EndDrawing();
     }
     CloseWindow();
-    return 0;
 }
